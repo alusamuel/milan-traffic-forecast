@@ -1,0 +1,14 @@
+{
+  "model": "tcn",
+  "area": 4159,
+  "configuration": {
+    "width": 16,
+    "lr": 0.001
+  },
+  "final_epochs": 35,
+  "max_epochs": 40,
+  "window_intervals": 144,
+  "log_scaler_mean": 5.607194106677328,
+  "log_scaler_std": 0.574995216821692,
+  "note": "Only load model artifacts from sources you trust. See README for provenance."
+}

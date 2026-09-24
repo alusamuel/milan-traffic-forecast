@@ -1,0 +1,14 @@
+{
+  "model": "lstm",
+  "area": 4556,
+  "configuration": {
+    "width": 32,
+    "lr": 0.001
+  },
+  "final_epochs": 36,
+  "max_epochs": 40,
+  "window_intervals": 144,
+  "log_scaler_mean": 6.261823059933426,
+  "log_scaler_std": 0.45025564700336496,
+  "note": "Only load model artifacts from sources you trust. See README for provenance."
+}
