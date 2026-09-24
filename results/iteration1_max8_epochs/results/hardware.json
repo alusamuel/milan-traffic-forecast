@@ -1,0 +1,9 @@
+{
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "machine": "AMD64",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 6,
+  "python": "3.12.4",
+  "pytorch": "2.14.0+cpu",
+  "timing": "time.perf_counter wall clock; per-area final fit and 1008-slot week inference; excludes tuning, input loading, and plotting; CPU, one run, no uncertainty interval"
+}

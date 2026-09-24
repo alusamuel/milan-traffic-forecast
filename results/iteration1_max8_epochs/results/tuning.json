@@ -1,0 +1,716 @@
+[
+  {
+    "area": 5161,
+    "model": "ridge",
+    "config": {
+      "alpha": 0.1
+    },
+    "validation_metrics": {
+      "mae": 109.7839316142991,
+      "rmse": 167.65157562978467,
+      "mape_percent": 7.688631467014708,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": null,
+    "epoch_log": [],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 5161,
+    "model": "ridge",
+    "config": {
+      "alpha": 10.0
+    },
+    "validation_metrics": {
+      "mae": 110.38025397988947,
+      "rmse": 169.25967634689337,
+      "mape_percent": 7.69136493103394,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": null,
+    "epoch_log": [],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 5161,
+    "model": "lstm",
+    "config": {
+      "width": 16,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 235.72719678923963,
+      "rmse": 383.9481656571994,
+      "mape_percent": 13.797762638081323,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.9550328254699707
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.7980573177337646
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.5566227436065674
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.2654782235622406
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.11662027984857559
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.049397122114896774
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.02833993174135685
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.02272915095090866
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 5161,
+    "model": "lstm",
+    "config": {
+      "width": 32,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 168.68702468408824,
+      "rmse": 271.1009562085494,
+      "mape_percent": 10.647797314167741,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.8097571134567261
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.3503498435020447
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.12183331698179245
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.0487985797226429
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.021192550659179688
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.016682835295796394
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.015448572114109993
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.014057539403438568
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 5161,
+    "model": "tcn",
+    "config": {
+      "width": 16,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 282.90901730944296,
+      "rmse": 519.7004252579612,
+      "mape_percent": 15.43978255040686,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 7,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 1.0635104179382324
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.43691888451576233
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.1348959058523178
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.05168179050087929
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.043815743178129196
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.04781844839453697
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.0359201580286026
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.03950194641947746
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 5161,
+    "model": "tcn",
+    "config": {
+      "width": 32,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 249.83305936875954,
+      "rmse": 450.43261463336285,
+      "mape_percent": 14.730711310064464,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.40297266840934753
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.07633092999458313
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.04445888102054596
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.04007027670741081
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.04056541621685028
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.043332379311323166
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.033335551619529724
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.03193878009915352
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4159,
+    "model": "ridge",
+    "config": {
+      "alpha": 0.1
+    },
+    "validation_metrics": {
+      "mae": 22.68699132280668,
+      "rmse": 35.264079721630765,
+      "mape_percent": 7.121078520806547,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": null,
+    "epoch_log": [],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4159,
+    "model": "ridge",
+    "config": {
+      "alpha": 10.0
+    },
+    "validation_metrics": {
+      "mae": 22.664611787708676,
+      "rmse": 35.245639347264635,
+      "mape_percent": 7.116749725208383,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": null,
+    "epoch_log": [],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4159,
+    "model": "lstm",
+    "config": {
+      "width": 16,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 27.09628380981795,
+      "rmse": 39.85309641245438,
+      "mape_percent": 9.113813081385278,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.8732014894485474
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.720913290977478
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.500329315662384
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.23545804619789124
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.12424495071172714
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.06815530359745026
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.048418037593364716
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.041487421840429306
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4159,
+    "model": "lstm",
+    "config": {
+      "width": 32,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 24.598365449423994,
+      "rmse": 37.589192841771876,
+      "mape_percent": 7.986585883775889,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.7153847217559814
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.3161015808582306
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.12277824431657791
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.06402094662189484
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.03819489851593971
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.03466900810599327
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.034487541764974594
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.03296199440956116
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4159,
+    "model": "tcn",
+    "config": {
+      "width": 16,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 25.34084046983753,
+      "rmse": 39.18525175707719,
+      "mape_percent": 7.9453519872554805,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.9172599911689758
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.7577916979789734
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.29378995299339294
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.1391456425189972
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.06309551000595093
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.04658884182572365
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.039522912353277206
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.03495100513100624
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4159,
+    "model": "tcn",
+    "config": {
+      "width": 32,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 22.441297193971128,
+      "rmse": 36.071523710589,
+      "mape_percent": 7.0889754991080745,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.5764802694320679
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.1758357435464859
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.04994320496916771
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.04024748131632805
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.03357734531164169
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.037539463490247726
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.032478220760822296
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.028422173112630844
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4556,
+    "model": "ridge",
+    "config": {
+      "alpha": 0.1
+    },
+    "validation_metrics": {
+      "mae": 34.0364663261747,
+      "rmse": 46.1174968040144,
+      "mape_percent": 6.5116603818749175,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": null,
+    "epoch_log": [],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4556,
+    "model": "ridge",
+    "config": {
+      "alpha": 10.0
+    },
+    "validation_metrics": {
+      "mae": 34.05864580357066,
+      "rmse": 46.12229208071462,
+      "mape_percent": 6.517742235352577,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": null,
+    "epoch_log": [],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4556,
+    "model": "lstm",
+    "config": {
+      "width": 16,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 43.81260490428993,
+      "rmse": 58.696565109137296,
+      "mape_percent": 8.717039501839064,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.8546898365020752
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.697976291179657
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.491809606552124
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.25361767411231995
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.14986631274223328
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.09376385062932968
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.07371114939451218
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.06167973577976227
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4556,
+    "model": "lstm",
+    "config": {
+      "width": 32,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 38.026515812603606,
+      "rmse": 51.553316111875574,
+      "mape_percent": 7.30155033232877,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.6675645709037781
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.30899322032928467
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.15191210806369781
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.07858052104711533
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.05597110465168953
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.04856903478503227
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.04542126879096031
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.0435817651450634
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4556,
+    "model": "tcn",
+    "config": {
+      "width": 16,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 48.392255042694835,
+      "rmse": 63.050610974768865,
+      "mape_percent": 9.504043309954419,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 7,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.8173391222953796
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.6391014456748962
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.3403857946395874
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.12462862581014633
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.0979229286313057
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.07025591284036636
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.066871277987957
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.07108262926340103
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  },
+  {
+    "area": 4556,
+    "model": "tcn",
+    "config": {
+      "width": 32,
+      "lr": 0.001
+    },
+    "validation_metrics": {
+      "mae": 37.20970342649118,
+      "rmse": 48.76662493011152,
+      "mape_percent": 7.320122839475567,
+      "mape_nonzero_count": 1008,
+      "n": 1008
+    },
+    "selected_epoch": 8,
+    "epoch_log": [
+      {
+        "epoch": 1,
+        "validation_scaled_mse": 0.4488551914691925
+      },
+      {
+        "epoch": 2,
+        "validation_scaled_mse": 0.14326010644435883
+      },
+      {
+        "epoch": 3,
+        "validation_scaled_mse": 0.0796295627951622
+      },
+      {
+        "epoch": 4,
+        "validation_scaled_mse": 0.06400365382432938
+      },
+      {
+        "epoch": 5,
+        "validation_scaled_mse": 0.05880548432469368
+      },
+      {
+        "epoch": 6,
+        "validation_scaled_mse": 0.04848788306117058
+      },
+      {
+        "epoch": 7,
+        "validation_scaled_mse": 0.04596271365880966
+      },
+      {
+        "epoch": 8,
+        "validation_scaled_mse": 0.042057909071445465
+      }
+    ],
+    "selection_rule": "minimum validation MAE, first candidate on tie"
+  }
+]

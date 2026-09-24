@@ -1,0 +1,12 @@
+{
+  "model": "ridge",
+  "area": 5161,
+  "configuration": {
+    "alpha": 0.1
+  },
+  "final_epochs": null,
+  "window_intervals": 144,
+  "log_scaler_mean": 6.792818782836865,
+  "log_scaler_std": 1.1389979014301388,
+  "note": "Only load model artifacts from sources you trust. See README for provenance."
+}
